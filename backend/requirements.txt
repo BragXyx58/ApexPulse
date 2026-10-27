@@ -1,0 +1,14 @@
+django>=5.2,<6
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+django-environ
+psycopg[binary]
+celery
+redis
+django-redis
+django-celery-beat
+fastf1
+matplotlib
+weasyprint
+requests

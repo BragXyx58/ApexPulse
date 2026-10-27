@@ -1,0 +1,6 @@
+Set-Content .gitignore -Encoding utf8 -Value @(
+  "# Python", ".venv/", "__pycache__/", "*.pyc", "db.sqlite3", "media/", "staticfiles/", "fastf1_cache/",
+  "# Node", "node_modules/", "dist/",
+  "# Env / IDE", ".env", ".vscode/", ".idea/"
+)
+New-Item -ItemType File docker-compose.yml, .env.example
